@@ -11,6 +11,9 @@ import TravelPlace from '../../fakeData/TravelPlace';
 const PlaceDetail = () => {
     const{placeId} = useParams();
     const places   = TravelPlace.find(pl=> pl.id.toString() === placeId);
+    const handleBooking = () => {
+
+    }
    
     
     console.log(places)
@@ -27,7 +30,7 @@ const PlaceDetail = () => {
             
             </Card.Text>
             <Link to={`/booking`}>
-            <Button variant="secondary">Booking</Button>
+            <Button onClick={handleBooking} variant="secondary">Booking</Button>
             </Link>
         </Card.Body>
         </Card>

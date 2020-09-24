@@ -17,16 +17,18 @@ const Header = () => {
            
            
             <Nav  className="mr-auto">
-              <Nav.Link  href="/home">Home</Nav.Link>
-              <Nav.Link href="/destination">Destination</Nav.Link>
-              <Nav.Link href="/booking">Booking</Nav.Link>
-              <Nav.Link href="/login">Login</Nav.Link>
+              <Nav.Link>
+              <Link  to ="/home">Home</Link>
+              <Link to="/destination">Destination</Link>
+              <Link to="/booking">Booking</Link>
+              <Link to="/login">Login</Link>
+              </Nav.Link>
              </Nav>
              
              <br/>
         <Form inline>
-          <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-          <Button variant="outline-light">Search</Button>
+          <FormControl type="text" placeholder="Search your Destination" className="mr-sm-2" />
+          <Button style={{color:'black'}} variant="outline-light">Search</Button>
          </Form>
       
   </Navbar>

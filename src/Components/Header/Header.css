@@ -1,10 +1,29 @@
 .header img{
     height: 40px;;
 }
-.header nav{
+/* .header nav{
     font-size: 200px;
 }
 nav Link {
     text-decoration: none;
     color: white
+} */
+/* .header img {
+    height: 80px;
+
+} */
+.header{
+    text-align: center;
+}
+.header nav{
+    /* background-color: black; */
+    line-height: 40px;
+    font-size: 20px;
+}
+nav a{
+    text-decoration: none;
+    color:black;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding: 5px;
 }
