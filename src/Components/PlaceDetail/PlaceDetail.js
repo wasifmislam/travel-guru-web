@@ -26,8 +26,8 @@ const PlaceDetail = () => {
             {places.description}
             
             </Card.Text>
-            <Link to={`/destination`}>
-            <Button variant="secondary">kisuashonakan</Button>
+            <Link to={`/booking`}>
+            <Button variant="secondary">Booking</Button>
             </Link>
         </Card.Body>
         </Card>
