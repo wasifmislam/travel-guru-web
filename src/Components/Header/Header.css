@@ -1,0 +1,10 @@
+.header img{
+    height: 40px;;
+}
+.header nav{
+    font-size: 200px;
+}
+nav Link {
+    text-decoration: none;
+    color: white
+}
