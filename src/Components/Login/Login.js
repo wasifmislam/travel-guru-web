@@ -198,7 +198,7 @@ function Login() {
        <button onClick={handleSignIn}>Sign in</button>
      }
      <br/> 
-     <button>Sign in using Facebook</button>
+     
       {
         user.isSignIn && <div><p>Welcome, {user.name}</p>
        <p>Your Email: {user.email}</p>
@@ -206,7 +206,7 @@ function Login() {
        </div>
       }
 
-      <h1>Our own Authentication</h1>
+      
       <input type="checkbox" onChange={()=> setNewUser(!newUser)} name="newUser" id=""/>
       <label htmlFor="newUser">New User Sign up</label>
       

@@ -5,6 +5,7 @@ import { UserContext } from '../../App';
 import logo from '../../images/Logo.png';
 import './Header.css';
 
+
 const Header = () => {
   const [loggedInUser, setLoggedInUser] = useState({});
     return (
@@ -19,7 +20,7 @@ const Header = () => {
             <Nav  className="mr-auto">
               <Nav.Link>
               <Link  to ="/home">Home</Link>
-              <Link to="/destination">Destination</Link>
+              {/* <Link to="/placeDetails">Destination</Link>  */}
               <Link to="/booking">Booking</Link>
               <Link to="/login">Login</Link>
               </Nav.Link>

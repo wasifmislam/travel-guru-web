@@ -12,7 +12,7 @@ import {
   Link
 } from "react-router-dom";
 import Nomatch from './Components/Nomatch/Nomatch';
-import PlaceDetail from './Components/PlaceDetail/PlaceDetail';
+import PlaceDetail from './Components/Des/PlaceDetail'
 import Login from './Components/Login/Login';
 import Booking from './Components/Booking/Booking'
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
