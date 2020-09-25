@@ -11,7 +11,7 @@ const Header = () => {
     return (
       <UserContext.Provider value={[loggedInUser, setLoggedInUser]}>
        <Navbar bg="warning" variant="dark">
-           <Navbar.Brand className='header' href="#home">
+           <Navbar.Brand className='header' href="/home">
            <img  src={logo} alt=""/>
            </Navbar.Brand>
            

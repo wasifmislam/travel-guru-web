@@ -7,6 +7,7 @@ import img2 from "../../images/Rectangle 27.png";
 import img3 from "../../images/Rectangle 28.png";
 
 
+
 const Destination = () => {
     
    const {roomKey } = useParams();
@@ -70,7 +71,9 @@ const Destination = () => {
         </Card>
     </div>
     </Col>
-    <Col>2 of 2</Col>
+    <Col>
+       
+    </Col>
     </Row>    
         
     );

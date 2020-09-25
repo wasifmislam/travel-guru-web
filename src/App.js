@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
-//import Destination from './Components/Booking/Booking';
+
 
 import {
   BrowserRouter as Router,
@@ -25,10 +25,10 @@ function App() {
   const [loggedInUser, setLoggedInUser] = useState({});
   return (
     <UserContext.Provider value={[loggedInUser, setLoggedInUser]}>
-      <p> email:{loggedInUser.email}</p>
+     
     <Router>
       <Header>
-      {/* <p> {loggedInUser.name}</p> */}
+    
       </Header>
      
       <Switch>

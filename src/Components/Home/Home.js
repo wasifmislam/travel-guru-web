@@ -6,7 +6,7 @@ import Place from '../Place/Place';
 const Home = () =>{
      
     const [travelPlace, setTravelPlace] = useState(TravelPlace);
-    // const [destination, setDestination] = useState([]);
+    
     //const handleLocation = (place) =>{
         //console.log('clicked', place);
     
